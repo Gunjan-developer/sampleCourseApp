@@ -9,6 +9,9 @@ router.post('/signup' , (req, res) => {
 
 router.get('/courses', (req, res) => {
     // code here
+    res.json({
+        msg: "Hey You Entered into the courses !!"
+    })
 });
 
 router.post('/courses/:courseId', (req, res) => {
